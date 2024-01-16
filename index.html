@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>APAAN NIH</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="slide1" class="slide" style="background-image: url('background1.png');">
+    <div class="centered">
+      <p class="message">Hai papahnya Lily</p>
+      <button onclick="showSlide(2)">Pencet sini cepetannn!!!</button>
+    </div>
+  </div>
+
+  <div id="slide2" class="slide" style="background-image: url('background2.png'); display:none;">
+    <div class="centered">
+      <p class="message">Maukah kamu malam ini telp sama aku?</p>
+      <button onclick="showSlide(3)">JELAS MAU GA USAH DITANYA</button>
+      <button disabled>TIDAK MAU</button>
+    </div>
+  </div>
+
+  <div id="slide3" class="slide" style="background-image: url('background3.png'); display:none;">
+    <div class="centered">
+      <p class="message">Ya udah gas ayo telp sekarang yuk, ditunggu segera ya :)</p>
+      <!-- Tambahkan elemen audio untuk pemutar musik -->
+      <audio autoplay>
+        <source src="https://drive.google.com/file/d/1VejhwIZGHw84FSdsKIJyA4LdS3RXXKSn/view?usp=sharing.mp3" type="audio/mpeg">
+        Maaf, browser Anda tidak mendukung pemutar musik.
+      </audio>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
